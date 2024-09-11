@@ -1,4 +1,4 @@
-name: Test-Devops-action
+name: Test-Devops-NG
 on:
   push:
       branches:
@@ -8,14 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: Devops step numerber 1
+        name: Devops step numerber 2
         run: echo "Hello world!"
       -
-        name: Testing
+        name: Testing DEV
         run: |
           echo "Step 1..."
           echo "Step 2..."
           echo "Step 3..."
       -
-        name: I am enjoying workflow
+        name: I am exited
         run: echo "Goodbye!"
